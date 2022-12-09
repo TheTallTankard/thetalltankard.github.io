@@ -10,7 +10,7 @@ function App() {
         <div>
           <h3>Check out our tools!</h3>
           <li>
-            <ul><a className="App-link" href="https://thetalltankard.github.io/dice-roller">Dice Roller Calculator</a></ul>
+            <ul><a className="App-link" href="https://thetalltankard.github.io/dice-roller">Dice Roller</a></ul>
             <ul><a className="App-link" href="https://thetalltankard.github.io/point-buy">Point Buy Calculator</a></ul>
           </li>
         </div>
