@@ -1,22 +1,17 @@
-import logo from '../img/TheTallTankard_Zoomed_NoBackground.png';
+import Container from 'react-bootstrap/Container';
 import '../styles/App.css';
+import Header from './Header';
+import Body from './Body';
+import Footer from './Footer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>Welcome to The Tall Tankard</h1>
-        <div>
-          <h3>Check out our tools!</h3>
-          <li>
-            <ul><a className="App-link" href="https://thetalltankard.github.io/ability-calculator">Ability Calculator</a></ul>
-            <ul><a className="App-link" href="https://thetalltankard.github.io/dice-roller">Dice Roller</a></ul>
-          </li>
-        </div>
-      </header>
-    </div>
-  );
+    <Container fluid className="App">
+      <Header href="https://TheTallTankard.github.io" text="The Tall Tankard"></Header>
+      <Body></Body>
+      <Footer></Footer>
+    </Container>
+  )
 }
 
 export default App;

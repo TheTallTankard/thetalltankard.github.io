@@ -1,0 +1,111 @@
+:root {
+    /* From coolers palette: https://coolors.co/palette/f0ead2-dde5b6-adc178-a98467-6c584c */
+    /* --color-1: #F0EAD2;
+    --color-2: #DDE5B6;
+    --color-3: #ADC178;
+    --color-4: #A98467;
+    --color-5: #6C584C; */
+
+    /* Generated coolers palette: https://coolors.co/1d264a-a25461-13152c-747c86-e9776e */
+    --color-1: #1D264A;
+    --color-2: #A25461;
+    --color-3: #13152C;
+    --color-4: #747C86;
+    --color-5: #E9776E;
+}
+
+.App {
+    color: black;
+    background-color: var(--color-4);
+    font-family: Georgia, Times, Cambria, Cochin, 'Times New Roman', serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;  
+    min-height: 100vh;
+    max-width: 100%;
+    font-size: calc(10px + 2vmin);
+}
+
+.Body.container-fluid {
+    padding-top: 10px;
+    margin: auto;
+    max-width: 1200px;
+}
+
+header {
+    font-size: 2vh;   
+    color: white;
+    background-color: var(--color-1); 
+}
+
+header img {
+    height: 4vh; 
+}
+
+footer {
+    font-size: calc(8px + 1vmin);
+    padding-top: 20px;
+    color: white;
+    background-color: var(--color-1);
+}
+
+footer .tankard-logo {
+    height:  calc(3vmin);
+    vertical-align: middle;
+    pointer-events: none;
+}
+
+footer a {
+    text-decoration: none;
+    color: inherit;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .tankard-logo {
+        animation: tankard-logo-wobble infinite 5s;
+    }
+
+    .tankard-logo.flipped {
+        animation: tankard-logo-flipped-wobble infinite 5s linear;
+    }
+}
+
+@keyframes tankard-logo-wobble {
+    0% { transform: rotate(-10deg); }
+    50% { transform: rotate(10deg) translateX(-40%) translateY(-10%) }
+    100% { transform: rotate(-15deg); }
+}
+
+@keyframes tankard-logo-flipped-wobble {
+    0% { transform:  scaleX(-1) rotate(-10deg); }
+    50% { transform:  scaleX(-1) rotate(2deg) translateX(-10%) translateY(-40%) }
+    100% { transform:  scaleX(-1) rotate(-10deg); }
+}
+
+textarea {
+    border: none;
+    resize: none;
+    color: inherit;
+    background-color: transparent;
+}
+
+a.card-wrapper {
+    text-decoration: none;
+    color: white;
+}
+
+.card {
+    border: none;
+}
+
+.card-header {
+    background-color: var(--color-3);
+}
+
+.card-body,
+.card-footer {
+    background-color: var(--color-1);
+    font-size: 70%;
+    border: none;
+}
