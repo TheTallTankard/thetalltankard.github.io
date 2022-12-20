@@ -2,14 +2,21 @@
     margin: 10px;
     border: transparent;
     font-weight: bold;
-    font-size: 50%;
-
 }
 
 .btn-primary {
-    color: white;
+    color: gray;
     background-color: var(--color-4);
 }
+
+.btn-primary:hover {
+    background-color: var(--color-1);
+}
+
+.btn-primary:active:focus {
+    background-color: var(--color-2);
+}
+
 .container, .container-fluid {
     padding: 0px;
 }
@@ -26,4 +33,8 @@
 
 .table {
     color: inherit;
+}
+
+th {
+    font-style: bold;
 }

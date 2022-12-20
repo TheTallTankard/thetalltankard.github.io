@@ -1,4 +1,4 @@
-import tankard from '../TheTallTankard_Zoomed_NoBackground.png';
+import tankard from '../img/TheTallTankard_Zoomed_NoBackground.png';
 
 function Footer () {
     return (

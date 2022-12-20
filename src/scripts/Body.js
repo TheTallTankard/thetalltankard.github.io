@@ -1,10 +1,9 @@
 import React from 'react';
-import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-import logo from '../img/TheTallTankard_Zoomed_NoBackground.png';
-import CardLink from './CardLink';
+import logo from '../common/img/TheTallTankard_Zoomed_NoBackground.png';
+import CardLink from '../common/js/CardLink';
 
 class Body extends React.Component {
   constructor(){

@@ -31,8 +31,8 @@
     /* Generated coolers palette: https://coolors.co/f7f0dd-593b37-d18514-922910-af7e80 */
     --color-1: #D68915;
     --color-2: #A95D11;
-    --color-3: #18263be3;
-    --color-4: #31190bf5;
+    --color-3: #18263b;
+    --color-4: #31190b;
     --color-5: #120704;
 
     --light-text-color: white;
@@ -84,7 +84,6 @@ footer .tankard-logo {
 }
 
 footer a {
-    text-decoration: none;
     color: inherit;
 }
 
@@ -110,29 +109,55 @@ footer a {
     100% { transform:  scaleX(-1) rotate(-10deg); }
 }
 
-textarea {
+textarea:read-only {
     border: none;
     resize: none;
     color: inherit;
     background-color: transparent;
 }
 
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button {  
+   opacity: 1;
+}
+
+a {
+    color: var(--color-1);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--color-2);
+    text-decoration: underline;
+
+}
+
 a.card-wrapper {
     text-decoration: none;
-    color: var(--light-text-color);
+    color: gray;
 }
 
 .card {
     border: none;
 }
 
-.card-header {
+.card:hover {
+    color: var(--color-2);
     background-color: var(--color-5);
+}
+
+.card-header {
+    border-color: gray;
+}
+
+.card-header,
+.card-body,
+.card-footer {
+    background-color: var(--color-4);
 }
 
 .card-body,
 .card-footer {
-    background-color: var(--color-4);
     font-size: 70%;
     border: none;
 }

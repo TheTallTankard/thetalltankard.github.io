@@ -1,8 +1,8 @@
 import Container from 'react-bootstrap/Container';
 import '../styles/App.css';
-import Header from './Header';
+import Header from '../common/js/Header';
+import Footer from '../common/js/Footer';
 import Body from './Body';
-import Footer from './Footer';
 
 function App() {
   return (

@@ -8,8 +8,8 @@ import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 //Custom theming
-import './styles/ttt-react-bootstrap-override.css';
-import './styles/ttt-theme.css';
+import './common/css/ttt-react-bootstrap-override.css';
+import './common/css/ttt-theme.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
