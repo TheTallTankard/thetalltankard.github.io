@@ -1,0 +1,21 @@
+.ScoreModeSelector #score-mode-desc {
+    font-size: 50%;
+}
+
+.ScoreModeSelector .selection-buttons {
+    margin: 5px;
+}
+
+.ScoreModeSelector .selection-buttons button {
+    padding: 10px;
+    margin: 5px;
+    width: 15vw;
+}
+
+.ScoreModeSelector select {
+    padding: 5px;
+}
+
+.ScoreModeSelector .active-mode {
+    background-color: rgb(208, 255, 255);
+}

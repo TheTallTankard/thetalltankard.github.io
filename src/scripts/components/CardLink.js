@@ -2,9 +2,6 @@ import React from "react";
 import Card from 'react-bootstrap/Card';
 
 class CardLink extends React.Component {
-    constructor(){
-        super();
-    }
 
     render(){
         const { title, desc, href } = this.props;

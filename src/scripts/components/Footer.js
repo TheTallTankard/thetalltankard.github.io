@@ -1,10 +1,10 @@
-import tankard from '../img/TheTallTankard_Zoomed_NoBackground.png';
+import tankard from '../../img/TheTallTankard_Zoomed_NoBackground.png';
 
 function Footer () {
     return (
         <footer>
             <div>
-                <strong><a href="https://thetalltankard.github.io">The Tall Tankard</a></strong>
+                <strong><a href="/">The Tall Tankard</a></strong>
             </div>
             <br/>
             <div>

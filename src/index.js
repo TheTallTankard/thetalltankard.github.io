@@ -1,20 +1,51 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './scripts/App';
+import App from './scripts/pages/App';
 import reportWebVitals from './reportWebVitals';
+
+//Included for routing
+import { createBrowserRouter } from 'react-router-dom';
+import { RouterProvider } from 'react-router-dom';
+import ErrorPage from './scripts/pages/ErrorPage';
+import CommonTheme from './scripts/pages/CommonTheme';
+import AbilityCalculator from './scripts/pages/AbilityCalculator';
+import DiceRoller from './scripts/pages/DiceRoller';
 
 //Included for react bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 //Custom theming
-import './common/css/ttt-react-bootstrap-override.css';
-import './common/css/ttt-theme.css';
+import './styles/App.css';
+import './styles/ttt-react-bootstrap-override.css';
+import './styles/ttt-theme.css';
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <App />,
+    errorElement: <ErrorPage />
+  },
+  {
+    path: "/common-theme",
+    element: <CommonTheme />,
+  },
+  {
+    path: "/ability-calculator",
+    element: <AbilityCalculator />,
+  },
+  {
+    path: "/dice-roller",
+    element: <DiceRoller />,
+  }
+])
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router}>
+      <App />
+    </RouterProvider>
   </React.StrictMode>
 );
 

@@ -1,0 +1,39 @@
+table {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    border-spacing: 10px;
+}
+
+table td.col-normal {
+    width: 12.5%;
+}
+
+table td.col-skinny {
+}
+
+table tr:first-child > td,
+table tr:last-child > td {
+    border-bottom: none;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+table input,
+table select {
+    width: 60%;
+    height: 100%;
+    text-align: center;
+}
+
+#roll-all {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.roll-button {
+    width: 80%;
+    padding: 3px;
+}
