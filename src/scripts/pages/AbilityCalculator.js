@@ -39,6 +39,7 @@ class AbilityCalculator extends React.Component {
         this.setState((prevState) => ({scoreMode: e.target.value}))
 
         switch(e.target.value){
+            default:
             case ScoreModes.PointBuy:
                 this.hideElementsByClass("roll-4d6-drop-low-conditional");
                 this.showElementsByClass("point-buy-conditional");

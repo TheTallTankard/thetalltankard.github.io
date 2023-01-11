@@ -39,7 +39,7 @@ class AbilityRow extends React.Component {
     }
 
     handleRollClicked(e){
-        if (this.props.scoreMode == ScoreModes.Roll4D6DropLowest){
+        if (this.props.scoreMode === ScoreModes.Roll4D6DropLowest){
             this.innerHandleScoreChange(this.rollAbilityScore());
         }
     }

@@ -2,12 +2,10 @@ import React from "react";
 import ScoreModes from '../../classes/ScoreModes'
 
 class ScoreInput extends React.Component {
-    constructor(){
-        super();
-    }
 
     render(){
         switch(this.props.scoreMode){
+            default:
             case ScoreModes.PointBuy: return this.showPointBuyInput();
             case ScoreModes.StandardArray: return this.showStandardArrayInput();
             case ScoreModes.Roll4D6DropLowest: return this.showRoll4D6DropLowestInput();

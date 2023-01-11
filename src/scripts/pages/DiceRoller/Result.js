@@ -1,9 +1,6 @@
 import React from 'react';
 
 class Result extends React.Component {
-    constructor(){
-        super();
-    }
     
     render(){
         let resultBoxText = `${this.configuredRollToRollCode()}\n\n${this.props.breakdown}\n\nTotal:\t${this.props.result}`;

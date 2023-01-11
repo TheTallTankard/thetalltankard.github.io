@@ -14,7 +14,7 @@ function CommonTheme() {
       <Header href="common-theme" text="<Application Name>"></Header>
         <Container fluid className="Body">
             <Row>
-                <Col><a href="#">Link</a></Col>
+                <Col><a href="common-theme">Link</a></Col>
             </Row>
             <Row>
                 <Col><input type="checkbox"></input></Col>

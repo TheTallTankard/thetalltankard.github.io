@@ -36,6 +36,7 @@ class ScoreModeSelector extends React.Component {
         e.target.classList.add("active-mode");
 
         switch(e.target.value){
+            default:
             case ScoreModes.PointBuy: this.setDesc(ScoreModes.PointBuyDesc); break;
             case ScoreModes.StandardArray: this.setDesc(ScoreModes.StandardArrayDesc); break;
             case ScoreModes.Roll4D6DropLowest: this.setDesc(ScoreModes.Roll4D6DropLowestDesc); break;

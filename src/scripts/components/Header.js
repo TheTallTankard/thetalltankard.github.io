@@ -12,7 +12,7 @@ class Header extends React.Component {
             <header>
                 <Navbar>
                     <Container>
-                        <Navbar.Brand href="/"><img src={tankard}/></Navbar.Brand>
+                        <Navbar.Brand href="/"><img src={tankard} alt="site logo" /></Navbar.Brand>
                         <Navbar.Collapse id="basic-navbar-nav">
                             <Nav className="me-auto">
                                 <Nav.Link href={this.props.href}>{this.props.text}</Nav.Link>

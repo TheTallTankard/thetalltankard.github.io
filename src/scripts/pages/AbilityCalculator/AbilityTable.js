@@ -65,6 +65,7 @@ class AbilityTable extends React.Component {
             case "int": this.setState({intCost: newCost}); break;
             case "wis": this.setState({wisCost: newCost}); break;
             case "cha": this.setState({chaCost: newCost}); break;
+            default: console.log(ability + " is not a valid attribute");
         }
 
         this.setState((state) => ({
