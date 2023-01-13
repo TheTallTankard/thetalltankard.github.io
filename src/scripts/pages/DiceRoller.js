@@ -37,7 +37,7 @@ class DiceRoller extends React.Component {
         const {configuredRoll, breakdown, result} = this.state;
         return (
             <Container fluid className="App">
-            <Header href="/" text="The Tall Tankard"></Header>
+            <Header></Header>
                 <Container fluid className="Body">
                 <Row>
                 <Col md={4}>

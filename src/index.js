@@ -5,7 +5,7 @@ import App from './scripts/pages/App';
 import reportWebVitals from './reportWebVitals';
 
 //Included for routing
-import { createBrowserRouter } from 'react-router-dom';
+import { createHashRouter } from 'react-router-dom';
 import { RouterProvider } from 'react-router-dom';
 import ErrorPage from './scripts/pages/ErrorPage';
 import CommonTheme from './scripts/pages/CommonTheme';
@@ -20,7 +20,7 @@ import './styles/App.css';
 import './styles/ttt-react-bootstrap-override.css';
 import './styles/ttt-theme.css';
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <App />,

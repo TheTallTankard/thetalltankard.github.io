@@ -18,7 +18,7 @@ class AbilityCalculator extends React.Component {
     render(){
         return (    
         <div className="App">
-            <Header href="ability-calculator" text="Ability Calculator"></Header>
+            <Header></Header>
                 <div className="Body">
                     <ScoreModeSelector onScoreModeChanged={this.updateScoreMode}></ScoreModeSelector>
                     <AbilityTable scoreMode={this.state.scoreMode} onRollClicked={this.onRollClicked}></AbilityTable>

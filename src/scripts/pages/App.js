@@ -10,7 +10,7 @@ import CardLink from '../components/CardLink';
 function App() {
   return (
     <Container fluid className="App">
-      <Header href="/" text="The Tall Tankard"></Header>
+      <Header></Header>
       <Container fluid className="Body">
         <div>
           <img src={logo} className="App-logo" alt="logo" />

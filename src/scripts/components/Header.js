@@ -15,10 +15,10 @@ class Header extends React.Component {
                         <Navbar.Brand href="/"><img src={tankard} alt="site logo" /></Navbar.Brand>
                         <Navbar.Collapse id="basic-navbar-nav">
                             <Nav className="me-auto">
-                                <Nav.Link href={this.props.href}>{this.props.text}</Nav.Link>
+                                <Nav.Link href="/">The Tall Tankard</Nav.Link>
                                 <NavDropdown title="Tools" id="basic-nav-dropdown">
-                                    <NavDropdown.Item href="ability-calculator/">Ability Calculator</NavDropdown.Item>
-                                    <NavDropdown.Item href="/dice-roller/">Dice Roller</NavDropdown.Item>
+                                    <NavDropdown.Item href="ability-calculator">Ability Calculator</NavDropdown.Item>
+                                    <NavDropdown.Item href="dice-roller">Dice Roller</NavDropdown.Item>
                                 </NavDropdown>
                             </Nav>
                         </Navbar.Collapse>
