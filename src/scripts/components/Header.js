@@ -17,8 +17,8 @@ class Header extends React.Component {
                             <Nav className="me-auto">
                                 <Nav.Link href="/">The Tall Tankard</Nav.Link>
                                 <NavDropdown title="Tools" id="basic-nav-dropdown">
-                                    <NavDropdown.Item href="ability-calculator">Ability Calculator</NavDropdown.Item>
-                                    <NavDropdown.Item href="dice-roller">Dice Roller</NavDropdown.Item>
+                                    <NavDropdown.Item href="#/ability-calculator">Ability Calculator</NavDropdown.Item>
+                                    <NavDropdown.Item href="#/dice-roller">Dice Roller</NavDropdown.Item>
                                 </NavDropdown>
                             </Nav>
                         </Navbar.Collapse>

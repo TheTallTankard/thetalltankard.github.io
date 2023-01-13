@@ -21,13 +21,13 @@ function App() {
               <Col>
                 <CardLink title="Ability Calculator"
                           desc="Calculates your character's starting ability stats"
-                          href="ability-calculator">
+                          href="#/ability-calculator">
                 </CardLink>
               </Col>
               <Col>
                 <CardLink title="Dice Roller"
                           desc="Roll any combination of standard D&D 5E dice"
-                          href="dice-roller">
+                          href="#/dice-roller">
                 </CardLink>
               </Col>
             </Row>

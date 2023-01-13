@@ -5,8 +5,7 @@ import App from './scripts/pages/App';
 import reportWebVitals from './reportWebVitals';
 
 //Included for routing
-import { createHashRouter } from 'react-router-dom';
-import { RouterProvider } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import ErrorPage from './scripts/pages/ErrorPage';
 import CommonTheme from './scripts/pages/CommonTheme';
 import AbilityCalculator from './scripts/pages/AbilityCalculator';
@@ -20,32 +19,17 @@ import './styles/App.css';
 import './styles/ttt-react-bootstrap-override.css';
 import './styles/ttt-theme.css';
 
-const router = createHashRouter([
-  {
-    path: "/",
-    element: <App />,
-    errorElement: <ErrorPage />
-  },
-  {
-    path: "/common-theme",
-    element: <CommonTheme />,
-  },
-  {
-    path: "/ability-calculator",
-    element: <AbilityCalculator />,
-  },
-  {
-    path: "/dice-roller",
-    element: <DiceRoller />,
-  }
-])
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <RouterProvider router={router}>
-      <App />
-    </RouterProvider>
+    <HashRouter>
+      <Routes>
+        <Route path="/" element={<App />} errorElement={<ErrorPage />} />
+        <Route path="/common-theme" element={<CommonTheme />} />
+        <Route path="/ability-calculator" element={<AbilityCalculator />} />
+        <Route path="/dice-roller" element={<DiceRoller />} />
+      </Routes>
+    </HashRouter>
   </React.StrictMode>
 );
 
