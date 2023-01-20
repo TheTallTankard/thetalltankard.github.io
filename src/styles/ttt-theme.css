@@ -121,6 +121,11 @@ input[type=number]::-webkit-outer-spin-button {
    opacity: 1;
 }
 
+textarea,
+input[type=text] {
+    border-radius: 10px;
+}
+
 a {
     color: var(--color-1);
     text-decoration: none;
@@ -160,4 +165,9 @@ a.card-wrapper {
 .card-footer {
     font-size: 70%;
     border: none;
+}
+
+.searchbar input[type="text"]{
+    width: 50vw;
+    max-width: 80%;
 }

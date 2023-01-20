@@ -2,6 +2,7 @@
     margin: 10px;
     border: transparent;
     font-weight: bold;
+    font-size: inherit;
 }
 
 .btn-primary {
@@ -19,6 +20,18 @@
 
 .container, .container-fluid {
     padding: 0px;
+}
+
+.form-control {
+    font-size: inherit;
+    line-height: normal;
+    width: inherit;
+    display: inherit;
+}
+
+.form-control.btn {
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .nav-link,
