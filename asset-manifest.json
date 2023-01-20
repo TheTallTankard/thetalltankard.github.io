@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.b16c7594.css",
-    "main.js": "/static/js/main.aa5bf19b.js",
+    "main.css": "/static/css/main.02ade2cc.css",
+    "main.js": "/static/js/main.92fbdd25.js",
     "static/js/787.e99ae625.chunk.js": "/static/js/787.e99ae625.chunk.js",
     "static/media/TheTallTankard_Zoomed_NoBackground.png": "/static/media/TheTallTankard_Zoomed_NoBackground.b6385421908c2eeb0639.png",
     "index.html": "/index.html",
-    "main.b16c7594.css.map": "/static/css/main.b16c7594.css.map",
-    "main.aa5bf19b.js.map": "/static/js/main.aa5bf19b.js.map",
+    "main.02ade2cc.css.map": "/static/css/main.02ade2cc.css.map",
+    "main.92fbdd25.js.map": "/static/js/main.92fbdd25.js.map",
     "787.e99ae625.chunk.js.map": "/static/js/787.e99ae625.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b16c7594.css",
-    "static/js/main.aa5bf19b.js"
+    "static/css/main.02ade2cc.css",
+    "static/js/main.92fbdd25.js"
   ]
 }
