@@ -20,7 +20,7 @@ function App() {
             <Row>
               <Col>
                 <CardLink title="Ability Calculator"
-                          desc="Calculates your character's starting ability stats"
+                          desc="Calculate character initial stats (point buy, standard array, or roll 4D6 and drop the lowest)"
                           href="#/ability-calculator">
                 </CardLink>
               </Col>
